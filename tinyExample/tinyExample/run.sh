@@ -57,20 +57,22 @@ trans=n2text.fst
 echo "\nTesting $trans"
 for w in "1" "2" "3" "4"; do
     echo "\t $w"
-    ./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
+    python3 ./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
                      fstcompose - compiled/$trans | fstshortestpath | fstproject --project_type=output |
                      fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=syms.txt
 done
 
 #3 - presents the output with the tokens concatenated (uses a different syms on the output)
-fst2word() { awk '{if(NF>=3){printf("%s",$3)}}END{printf("\n")}' }
+fst2word() {
+    awk '{if(NF>=3){printf("%s",$3)}}END{printf("\n")}'
+  }
 
 trans=n2text.fst
 echo "\n***********************************************************"
 echo "Testing 5 6 7 8  (output is a string  using 'syms-out.txt')"
 echo "***********************************************************"
 for w in 5 6 7 8; do
-    res=$(./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
+    res=$(python3 ./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
                        fstcompose - compiled/$trans | fstshortestpath | fstproject --project_type=output |
                        fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./scripts/syms-out.txt | fst2word)
     echo "$w = $res"

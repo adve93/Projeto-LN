@@ -2,6 +2,7 @@
 
 mkdir -p compiled images
 
+rm -f ./compiled/*.fst ./images/*.pdf
 
 # ############ Compile source transducers ############
 for i in sources/*.txt tests/*.txt; do
@@ -64,8 +65,8 @@ done
 
 #3 - presents the output with the tokens concatenated (uses a different syms on the output)
 fst2word() {
-    awk '{if(NF>=3){printf("%s",$3)}}END{printf("\n")}'
-  }
+	awk '{if(NF>=3){printf("%s",$3)}}END{printf("\n")}'
+}
 
 trans=n2text.fst
 echo "\n***********************************************************"

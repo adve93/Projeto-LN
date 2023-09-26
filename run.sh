@@ -13,11 +13,7 @@ done
 # ############ CORE OF THE PROJECT  ############
 
 
-
-
-
-
-
+fstconcat ./compiled/mm2mmm.fst ./compiled/word2word.fst > ./compiled/mix2numerical.fst
 
 
 

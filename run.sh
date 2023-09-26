@@ -16,6 +16,8 @@ done
 #transducer that simply accepts everyword.
 fstconcat ./compiled/mmm2mm.fst ./compiled/word2word.fst > ./compiled/mix2numerical.fst
 
+#Inverse the input and output of the english to portuguese translator to create a portuguese to english translator
+fstinvert ./compiled/en2pt.fst > ./compiled/pt2en.fst
 
 
 

@@ -12,8 +12,9 @@ done
 
 # ############ CORE OF THE PROJECT  ############
 
-
-fstconcat ./compiled/mm2mmm.fst ./compiled/word2word.fst > ./compiled/mix2numerical.fst
+#Concating mmm2mm.fst, transducer that translates month in a 3 letter format ex. SEP into a number format ex. 09, with word 2 word
+#transducer that simply accepts everyword.
+fstconcat ./compiled/mmm2mm.fst ./compiled/word2word.fst > ./compiled/mix2numerical.fst
 
 
 

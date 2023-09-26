@@ -70,12 +70,12 @@ fst2word() {
 
 trans=n2text.fst
 echo "\n***********************************************************"
-echo "Testing 5 6 7 8  (output is a string  using 'syms-out.txt')"
+echo "Testing 5 6 7 8  (output is a string  using 'syms.txt')"
 echo "***********************************************************"
 for w in 5 6 7 8; do
     res=$(python3 ./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
                        fstcompose - compiled/$trans | fstshortestpath | fstproject --project_type=output |
-                       fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./scripts/syms-out.txt | fst2word)
+                       fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=syms.txt | fst2word)
     echo "$w = $res"
 done
 

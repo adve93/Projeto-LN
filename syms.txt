@@ -62,8 +62,7 @@ eighteen	60
 nineteen	61
 twenty		62
 thirty		63
-forty		64
-fifty		65
+forty	65
 sixty		66
 seventy		67
 eighty		68

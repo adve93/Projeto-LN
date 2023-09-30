@@ -1,33 +1,72 @@
-0	1	1	_
-0	1	2	_
-0	1	3	_
-0	1	4	_
-0	1	5	_
-0	1	6	_
-0	1	7	_
-0	1	8	_
-0	1	9	_
-0	1	10	_ten
-0	1	11	_eleven
-0	1	12	_twelve
-0	1	13	_thirteen
-0	1	14	_fourteen
-0	1	15	_fifteen
-0	1	16	_sixteen
-0	1	17	_seventeen
-0	1	18	_eighteen
-0	1	19	_nineteen
-0	1	20	_twenty
-0	1	21	_twenty_-_one
-0	1	22	_twenty_-_two
-0	1	23	_twenty_-_three
-0	1	24	_twenty_-_four
-0	1	25	_twenty_-_five
-0	1	26	_twenty_-_six
-0	1	27	_twenty_-_seven
-0	1	28	_twenty_-_eight
-0	1	29	_twenty_-_nine
-0	1	30	_thirty
-0	1	31	_thirty_-_one
-1	2	eps	eps
+0	1	1	eps
+1	2	0	ten
+1	3	1	eleven
+1	4	2	twelve
+1	5	3	thirteen
+1	6	4	fourteen
+1	7	5	fifteen
+1	8	6	sixteen
+1	9	7	seventeen
+1	10	8	eighteen
+1	11	9	nineteen
+1	12	eps	one
+0	13	2	eps
+13	14	0	twenty
+13	15	1	twenty
+15	16	eps	-
+16	17	eps	first
+13	18	2	twenty
+18	19	eps	-
+19	20	eps	second
+13	21	3	twenty
+21	22	eps	-
+22	23	eps	third
+13	24	4	twenty
+24	25	eps	-
+25	26	eps	fourth
+13	27	5	twenty
+27	28	eps	-
+28	29	eps	fifth
+13	30	6	twenty
+30	31	eps	-
+31	32	eps	sixth
+13	33	7	twenty
+33	34	eps	-
+34	35	eps	seventh
+13	36	8	twenty
+36	37	eps	-
+37	38	eps	eighth
+13	39	9	twenty
+39	40	eps	-
+40	41	eps	ninth
+13	42	eps	two
+0	43	3	eps
+43	44	0	thirty
+43	45	1	thirty
+45	46	eps	-
+46	47	eps	first
+43	48	eps	three
 2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+14
+17
+19
+23
+26
+29
+32
+35
+41
+42
+44
+47
+48

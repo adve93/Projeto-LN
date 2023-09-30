@@ -10,5 +10,4 @@
 0	1	OCT	OUT
 0	1	NOV	NOV
 0	1	DEC	DEZ
-1	2	eps	eps
-2
+1

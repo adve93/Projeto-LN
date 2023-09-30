@@ -19,6 +19,11 @@ fstconcat ./compiled/mmm2mm.fst ./compiled/word2word.fst > ./compiled/mix2numeri
 #Inverse the input and output of the english to portuguese translator to create a portuguese to english translator
 fstinvert ./compiled/en2pt.fst > ./compiled/pt2en.fst
 
+#Concating month.fst - bar2coma.fst - day.fst - bar2come.fst - year.fst
+fstconcat ./compiled/month.fst ./compiled/bar2coma.fst > ./compiled/aux1.fst
+fstconcat ./compiled/aux1.fst ./compiled/day.fst > ./compiled/aux2.fst
+fstconcat ./compiled/aux2.fst ./compiled/bar2coma.fst > ./compiled/aux3.fst
+fstconcat ./compiled/aux3.fst ./compiled/year.fst > ./compiled/datenum2text.fst
 
 
 

@@ -142,118 +142,118 @@
 142	143	0	sixty
 143	144	1	sixty
 144	145	eps	-
-145	156	eps	one
-142	157	2	sixty
-157	158	eps	-
-158	159	eps	two
-142	160	3	sixty
-160	161	eps	-
-161	162	eps	three
-142	163	4	sixty
-163	164	eps	-
-164	165	eps	four
-142	166	5	sixty
-166	167	eps	-
-167	168	eps	five
-142	169	6	sixty
-169	170	eps	-
-170	171	eps	six
-141	172	7	sixty
-172	173	eps	-
-173	174	eps	seven
-142	175	8	sixty
-175	176	eps	-
-176	177	eps	eight
-142	178	9	sixty
-178	179	eps	-
-179	180	eps	nine
-3	181	7	eps
-181	182	0	seventy
-181	183	1	seventy
-183	184	eps	-
-184	185	eps	one
-181	186	2	seventy
-186	187	eps	-
-187	188	eps	two
-181	189	3	seventy
-190	191	eps	-
-191	192	eps	three
-181	193	4	seventy
-193	194	eps	-
-194	195	eps	four
-181	196	5	seventy
-196	197	eps	-
-197	198	eps	five
-181	199	6	seventy
-199	200	eps	-
-200	201	eps	six
-181	202	7	seventy
+145	146	eps	one
+142	147	2	sixty
+147	148	eps	-
+148	149	eps	two
+142	150	3	sixty
+150	151	eps	-
+151	152	eps	three
+142	153	4	sixty
+153	154	eps	-
+154	155	eps	four
+142	156	5	sixty
+156	157	eps	-
+157	158	eps	five
+142	159	6	sixty
+159	160	eps	-
+160	161	eps	six
+142	162	7	sixty
+162	163	eps	-
+163	164	eps	seven
+142	165	8	sixty
+165	166	eps	-
+166	167	eps	eight
+142	168	9	sixty
+168	169	eps	-
+169	170	eps	nine
+3	171	7	eps
+171	172	0	seventy
+171	173	1	seventy
+173	174	eps	-
+174	175	eps	one
+171	176	2	seventy
+176	177	eps	-
+177	178	eps	two
+171	179	3	seventy
+179	180	eps	-
+180	181	eps	three
+171	182	4	seventy
+182	183	eps	-
+183	184	eps	four
+171	185	5	seventy
+185	186	eps	-
+186	187	eps	five
+171	188	6	seventy
+188	189	eps	-
+189	190	eps	six
+171	191	7	seventy
+191	192	eps	-
+192	193	eps	seven
+171	194	8	seventy
+194	195	eps	-
+195	196	eps	eight
+171	197	9	seventy
+197	198	eps	-
+198	199	eps	nine
+3	200	8	eps
+200	201	0	eighty
+200	202	1	eighty
 202	203	eps	-
-203	204	eps	seven
-181	205	8	seventy
+203	204	eps	one
+200	205	2	eighty
 205	206	eps	-
-206	207	eps	eight
-181	208	9	seventy
+206	207	eps	two
+200	208	3	eighty
 208	209	eps	-
-209	210	eps	nine
-3	211	8	eps
-211	112	0	eighty
-211	213	1	eighty
-213	214	eps	-
-214	215	eps	one
-211	216	2	eighty
-216	217	eps	-
-217	218	eps	two
-211	219	3	eighty
-219	220	eps	-
-220	221	eps	three
-211	222	4	eighty
-222	223	eps	-
-223	224	eps	four
-211	225	5	eighty
-225	226	eps	-
-226	227	eps	five
-211	228	6	eighty
-228	229	eps	-
-229	230	eps	six
-211	231	7	eight
+209	210	eps	three
+200	211	4	eighty
+211	212	eps	-
+212	213	eps	four
+200	214	5	eighty
+214	215	eps	-
+215	216	eps	five
+200	217	6	eighty
+217	218	eps	-
+218	219	eps	six
+200	220	7	eight
+220	221	eps	-
+221	222	eps	seven
+200	223	8	eight
+223	224	eps	-
+224	225	eps	eigh
+200	226	9	eighty
+226	227	eps	-
+227	228	eps	nine
+3	229	9	eps
+229	230	0	ninety
+229	231	1	ninety
 231	232	eps	-
-232	233	eps	seven
-211	234	8	eight
+232	233	eps	one
+229	234	2	ninety
 234	235	eps	-
-235	236	eps	eigh
-211	237	9	eighty
+235	236	eps	two
+229	237	3	ninety
 237	238	eps	-
-238	239	eps	nine
-3	240	9	eps
-240	241	0	ninety
-240	242	1	ninety
-242	243	eps	-
-243	244	eps	one
-240	245	2	ninety
-245	246	eps	-
-246	247	eps	two
-240	248	3	ninety
-248	249	eps	-
-249	250	eps	three
-240	251	4	ninety
-251	252	eps	-
-252	253	eps	four
-240	254	5	ninety
-254	255	eps	-
-255	256	eps	five
-240	257	6	ninety
-257	258	eps	-
-258	259	eps	six
-240	260	7	ninety
-260	261	eps	-
-261	262	eps	seven
-240	263	8	ninety
-263	264	eps	-
-264	265	eps	eigh
-240	266	9	ninety
-266	267	eps	-
-267	268	eps	nine
+238	239	eps	three
+229	240	4	ninety
+240	241	eps	-
+241	242	eps	four
+229	243	5	ninety
+243	244	eps	-
+244	245	eps	five
+229	246	6	ninety
+246	247	eps	-
+247	248	eps	six
+229	249	7	ninety
+249	250	eps	-
+250	251	eps	seven
+229	252	8	ninety
+252	253	eps	-
+253	254	eps	eigh
+229	255	9	ninety
+255	256	eps	-
+256	257	eps	nine
 5
 6
 7
@@ -302,3 +302,24 @@
 102
 105
 109
+112
+114
+117
+120
+123
+126
+129
+132
+135
+138
+141
+143
+146
+149
+152
+155
+158
+161
+164
+167
+170

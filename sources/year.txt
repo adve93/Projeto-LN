@@ -104,43 +104,43 @@
 103	104	eps	-
 104	105	eps	seven
 83	106	8	forty
-107	108	eps	-
-108	109	eps	eight
-83	110	9	forty
-110	111	eps	-
-111	112	eps	nine
-3	113	5	eps
-113	114	0	fifty
-113	115	1	fifty
-115	116	eps	-
-116	117	eps	one
-113	118	2	fifty
-118	119	eps	-
-119	120	eps	two
-113	121	3	fifty
+106	107	eps	-
+107	108	eps	eight
+83	109	9	forty
+109	110	eps	-
+110	111	eps	nine
+3	112	5	eps
+112	113	0	fifty
+112	114	1	fifty
+114	115	eps	-
+115	116	eps	one
+112	117	2	fifty
+117	118	eps	-
+118	119	eps	two
+112	121	3	fifty
 121	122	eps	-
 122	123	eps	three
-113	124	4	fifty
+112	124	4	fifty
 124	125	eps	-
 125	126	eps	four
-113	127	5	fifty
+112	127	5	fifty
 127	128	eps	-
 128	129	eps	five
-113	130	6	fifty
+112	130	6	fifty
 130	131	eps	-
 131	132	eps	six
-113	133	7	fifty
+112	133	7	fifty
 133	134	eps	-
 134	135	eps	seven
-113	136	8	fifty
+112	136	8	fifty
 136	137	eps	-
 137	138	eps	eight
-113	139	9	fifty
+112	139	9	fifty
 139	140	eps	-
 140	141	eps	nine
 3	142	6	eps
 142	143	0	sixty
-143	144	1	sixty
+142	144	1	sixty
 144	145	eps	-
 145	146	eps	one
 142	147	2	sixty
@@ -216,12 +216,12 @@
 200	217	6	eighty
 217	218	eps	-
 218	219	eps	six
-200	220	7	eight
+200	220	7	eighty
 220	221	eps	-
 221	222	eps	seven
-200	223	8	eight
+200	223	8	eighty
 223	224	eps	-
-224	225	eps	eigh
+224	225	eps	eight
 200	226	9	eighty
 226	227	eps	-
 227	228	eps	nine
@@ -250,7 +250,7 @@
 250	251	eps	seven
 229	252	8	ninety
 252	253	eps	-
-253	254	eps	eigh
+253	254	eps	eight
 229	255	9	ninety
 255	256	eps	-
 256	257	eps	nine
@@ -282,17 +282,6 @@
 47
 50
 53
-58
-61
-64
-67
-70
-73
-76
-79
-82
-26
-55
 84
 87
 90
@@ -301,10 +290,9 @@
 99
 102
 105
-109
-112
-114
-117
+116
+119
+113
 120
 123
 126
@@ -353,3 +341,16 @@
 251
 254
 257
+26
+108
+111
+58
+61
+64
+67
+70
+73
+76
+79
+82
+55

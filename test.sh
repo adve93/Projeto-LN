@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 mkdir -p compiled images
 
@@ -28,17 +28,12 @@ fstconcat ./compiled/aux3.fst ./compiled/year.fst > ./compiled/datenum2text.fst
 #Composing fst to create mix2text.fst
 fstcompose ./compiled/pt2en.fst ./compiled/mix2numerical.fst > ./compiled/aux4.fst
 fstconcat  ./compiled/aux4.fst ./compiled/word2word.fst > ./compiled/aux5.fst
-fstcompose ./compiled/mix2text.fst ./compiled/aux5.fst > ./compiled/test.fst
 fstunion ./compiled/mix2numerical.fst ./compiled/aux5.fst > ./compiled/aux6.fst
 fstcompose ./compiled/aux6.fst ./compiled/datenum2text.fst > ./compiled/aux7.fst
 fstrmepsilon ./compiled/aux7.fst > ./compiled/mix2text.fst
 
 #Creating date2text with a union
 fstunion ./compiled/mix2text.fst ./compiled/datenum2text.fst > ./compiled/date2text.fst
-
-
-
-
 
 # ############ generate PDFs  ############
 echo "Starting to generate PDFs"
@@ -48,38 +43,6 @@ for i in compiled/*.fst; do
 done
 
 
-
-# ############      3 different ways of testing     ############
-# ############ (you can use the one(s) you prefer)  ############
-
-#1 - generates files
-echo "\n***********************************************************"
-echo "Testing 4 (the output is a transducer: fst and pdf)"
-echo "***********************************************************"
-for w in compiled/t-*.fst; do
-    fstcompose $w compiled/n2text.fst | fstshortestpath | fstproject --project_type=output |
-                  fstrmepsilon | fsttopsort > compiled/$(basename $i ".fst")-out.fst
-done
-for i in compiled/t-*-out.fst; do
-	echo "Creating image: images/$(basename $i '.fst').pdf"
-   fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/$(basename $i '.fst').pdf
-done
-
-
-#2 - present the output as an acceptor
-echo "\n***********************************************************"
-echo "Testing 1 2 3 4 (output is a acceptor)"
-echo "***********************************************************"
-trans=n2text.fst
-echo "\nTesting $trans"
-for w in "1" "2" "3" "4"; do
-    echo "\t $w"
-    python3 ./scripts/word2fst.py $w | fstcompile --isymbols=syms.txt --osymbols=syms.txt | fstarcsort |
-                     fstcompose - compiled/$trans | fstshortestpath | fstproject --project_type=output |
-                     fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=syms.txt
-done
-
-#3 - presents the output with the tokens concatenated (uses a different syms on the output)
 fst2word() {
 	awk '{if(NF>=3){printf("%s",$3)}}END{printf("\n")}'
 }
@@ -91,6 +54,7 @@ for w in MAY/15/2020 MAI/15/2020; do
                        fstcompose - compiled/$trans | fstshortestpath | fstproject --project_output=true |
                        fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./scripts/syms-out.txt | fst2word)
     echo "$w = $res"
+
 done
 
 echo "\nThe end"

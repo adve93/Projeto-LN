@@ -34,59 +34,166 @@ def draw():
 # cria as instancias e guarda num ficheiro
 def create_instances(t):
     # ler ficheiro
-    tempo = 20*t
+    tempo = 20 * t
     with open("train.txt", "r") as f:
         lines = f.readlines()
-        # ir buscar as classificações e guardar os classificcações num array
-        classifications = []
-        tam = len(lines)
-        for i in range(1, tam):
-            aux = lines[i].replace("\n", "")
-            aux = aux.split("\t")
-            classifications.append(aux[0])
-        classifications = set(classifications)
-        # meter por ordem alfabética
-        classifications = sorted(classifications)
-        # fazer as instancias
-        instance = []
-        for i in range(1, tam):
-            linha = ""
-            # tirar o \n
-            linha_inicial = lines[i].replace("\n", "")
-            # separar por \t
-            linha_inicial = linha_inicial.split("\t")
-            # tirar o tempo
-            id_i = linha_inicial[0]
-            # index da classificação 0, 1, 2, 3 (como se tem 4 classificações)
-            classification_i = classifications.index(linha_inicial[0])
-            # adicionar a ultima linha
-            linha = "\t".join(linha_inicial[-1:])
-            # ler as tx20 linhas seguintes se eistirem e adicionar ao fim da linha as 3 ultimas palavras
-            if i + tempo >= tam:
-                break
-            aux = 0
-            for j in range((i+1), ((tempo)+i+1)):
-                if (tempo)+i < tam:
-                    linha_final = lines[j].replace("\n", "")
-                    linha_final = linha_final.split("\t")
-                    if linha_final[0] == id_i and linha_final[0] == linha_inicial[0]:
-                        aux = aux + 1
-                        linha = linha + "\t" + "\t".join(linha_final[-1:])
-                    else:
-                        break
+
+    # criar dicionário de classificações
+    classifications = {}
+    for line in lines:
+        classification, text = line.strip().split("\t", 1)
+        if classification not in classifications:
+            classifications[classification] = len(classifications)
+
+    # fazer as instâncias
+    instances = []
+    for i in range(len(lines) - tempo):
+        current_line = lines[i].strip()
+        classification, text = current_line.split("\t", 1)
+        instance_text = text
+
+        for j in range(1, tempo + 1):
+            next_line = lines[i + j].strip()
+            next_classification, next_text = next_line.split(" ", 1)
+
+            if next_classification == classification:
+                instance_text += " " + " ".join(next_text.split()[-3:])
+
+        instances.append(f"{instance_text}")
+
+    # escrever no ficheiro
+    with open("instances.txt", "w") as f:
+        for instance in instances:
+            f.write(instance + "\n")
+
+
+# create k fold sets
+# recebe o numero de fold sets
+# cria os k fold sets com ids diferentes e forma logo os ficheros de treino e teste para cada fold set
+def create_k_fold_sets(k):
+    # criar k fold sets
+    k_fold_sets = []
+    with open("instances.txt", "r") as f:
+        lines = f.readlines()
+        # ver quandos ids existem
+        ids = []
+        for i in range(len(lines)):
+            linha = lines[i].replace("\n", "")
+            linha = linha.split("\t")
+            ids.append(linha[-1])
+        ids = set(ids)
+        ids = len(ids)
+        print(linha[-1])
+        # vai existir ids/k fold sets
+        id_fold_set = ids // k
+        id_fold_set_rest = ids % k
+        # percorrer o ficheiro e meter id_fold_set ids em cada fold set
+        aux = -1
+        ids_aux = []
+        for i in range(ids):
+            ids_aux.append([])
+        for i in range(k):
+            k_fold_sets.append([])
+        ids_ = []
+        for i in range(len(lines)):
+            linha = lines[i].replace("\n", "")
+            linha = linha.split("\t")
+            id_i = linha[-1]
+            if id_i not in ids_:
+                aux += 1
+                ids_.append(id_i)
+            ids_aux[aux].append(lines[i])
+        # meter os ids no fold set
+        for i in range(k):
+            for j in range(id_fold_set):
+                k_fold_sets[i].append(ids_aux[i*id_fold_set+j])
+        # meter os ids restantes nos fold sets
+        for i in range(id_fold_set_rest):
+            k_fold_sets[i].append(ids_aux[ids-id_fold_set_rest+i])
+        # escrever nos treinos e testes
+        # sendo dois fold sets para teste e o resto para treino
+        fold_train = []
+        fold_test = []
+        for i in range(k):
+            fold_train.append([])
+            fold_test.append([])
+            for j in range(k):
+                if i == j or i == j+1:
+                    fold_test[i].append(k_fold_sets[j])
+                    if j == k-1:
+                        fold_test[i].append(k_fold_sets[0])
                 else:
-                    break
-            if aux == tempo:
-                # adicionar a linha ao instance
-                linha = "".join(linha) + "\t" + str(classification_i) + "\t" + id_i
+                    fold_train[i].append(k_fold_sets[j])
 
-                instance.append(linha)
 
-        # escrever no ficheiro
-        with open("instances.txt", "w") as f:
-            for i in instance:
-                f.write(i + "\n")
+        # criar ficheiros de trein
 
+        # criar e escrever para o ficheiro
+        for i in range(k):
+            # juntar os k_fold_sets todos menos dois deles e guardar num ficheiro
+            with open("csv/train/train_set_"+str(i)+".csv", "w") as f:
+                for j in fold_train[i]:
+                    for n in j:
+                        # list to string
+                        n = "\t".join(n)
+                        f.write(n+"\n")
+            # guardar os dois k_fold_sets num ficheiro teste
+            with open("csv/test/test_validation_set_"+str(i)+".csv", "w") as f:
+                for j in fold_test[i]:
+                    for n in j:
+                        n = "\t".join(n)
+                        f.write(n+"\n")
+
+# normaliza os dados
+# Recebe o numero de fold sets
+# Guarda os dados normalizados no ficheiro treino e teste
+# Vai ler o ficheiro de treino ver os valores maximos e minimos de cada coluna
+# E depois vai ler o ficheiro de teste e vai normalizar os dados
+# o mesmo para o ficheiro de validacao
+def normalize(k):
+    # ler o ficheiro de treino
+    with open("csv/train/train_set_0.csv", "r") as f:
+        lines = f.readlines()
+    # ver quantas colunas existem
+    colunas = lines[0].split("\t")
+    colunas = len(colunas)
+    # ver o maximo e o minimo de cada coluna
+    maximos = []
+    minimos = []
+    for i in range(colunas):
+        maximos.append(0)
+        minimos.append(100000)
+    for i in range(len(lines)):
+        linha = lines[i].split("\t")
+        for j in range(colunas):
+            if float(linha[j]) > maximos[j]:
+                maximos[j] = float(linha[j])
+            if float(linha[j]) < minimos[j]:
+                minimos[j] = float(linha[j])
+    # normalizar os dados
+    for i in range(k):
+        # ler o ficheiro de treino
+        with open("csv/train/train_set_"+str(i)+".csv", "r") as f:
+            lines = f.readlines()
+        # criar ficheiro de treino normalizado
+        with open("csv/train/train_set_norm_"+str(i)+".csv", "w") as f:
+            for j in range(len(lines)):
+                linha = lines[j].split("\t")
+                for n in range(colunas):
+                    linha[n] = (float(linha[n]) - minimos[n]) / (maximos[n] - minimos[n])
+                linha = "\t".join(str(x) for x in linha)
+                f.write(linha)
+        # ler o ficheiro de teste
+        with open("csv/test/test_validation_set_"+str(i)+".csv", "r") as f:
+            lines = f.readlines()
+        # criar ficheiro de teste normalizado
+        with open("csv/test/test_validation_set_norm_"+str(i)+".csv", "w") as f:
+            for j in range(len(lines)):
+                linha = lines[j].split("\t")
+                for n in range(colunas):
+                    linha[n] = (float(linha[n]) - minimos[n]) / (maximos[n] - minimos[n])
+                linha = "\t".join(str(x) for x in linha)
+                f.write(linha)
 
 
 
@@ -101,7 +208,13 @@ def main():
     #tagged = nltk.pos_tag(tokens)
     #print(tagged[0:7])
 
-    create_instances(20)
+    create_instances(1)
+
+    k = 10
+    create_k_fold_sets(k)
+    print("k fold sets criados")
+    normalize(k)
+    print("dados normalizados")
 
 
 main()

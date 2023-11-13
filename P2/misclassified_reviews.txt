@@ -1,0 +1,304 @@
+Review: recently stayed hyatt regency chicago business extended stay weekend loved accommodation exceeded expectation bed comfortable room big enough shower relaxing great meal chop shop coffee delicious j express fitness center clean inspiring recommend hotel others area
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: booked room w queen bed 2 night wonderful nye rather disappointed bed either world smallest queen actually double mention uncomfortably springy thing bathroom previously opened used qtips lot noise seemed carry vent could hear room rather clearly tv audible highpitched humming noise could get rid unless unplugged tv hot water inconsistent shower great location however next time try one hotel area like intercontinental marriott might bad passing though quickly business wouldnt recommend romantic night two
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: first dont get room lower floor garbage pick make ton noise wake 6 dont bother going breakfast time either restaurant isnt open early finally opened breakfast arrived cold late nothing like congealed egg start day fitness center towel cup water also hot many people sweated much congealed breakfast really pleasant entire three day visit like tried room service night service slow food warm arrived high speed internet high speed would connect furniture run worn pool towel always available generally price paid would expect better service better maintained premise
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: stay palmer house attend conference chicago stately building year problem first wifi available free cost 750 per hour online indicated hilton hotel charge 4 almost double many hotel free wifi wifi wifi level service factor could justify exorbitant cost also charge fitness center even going use machine business center inhouse copy etc bed wall separated u bathroom next room separate u bathroom noise someone took shower 530 pipe sung like old pipe dobut loudly empty wine glass sat outside someone room door day without picked housekeeping concierge desk one person always line called put hold dealt people line staff nice location cant beat luxury price normal service felt like ripoff year doubt well return
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: elegant modernized hotel great staff location wonderful health club located hotel everything needed get complete workout staying due wonderful experience decent price
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: room spacious nice colorful decorating bed felt like lying cloud four pillow bed two fiberfill two could choose like better bathroom nice also overall pleased stay show room key get ten pm thought good security issue great location close downtown would recommend decoration classy hotel two framed art boring bedspread lumpy pillow hyatt regency opposite
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: james hotel chicago far one best hotel family ever pleasure staying room service best area mention spa hotel die lobby reception area contemporary great place take family relax would recommend hotel anyone 5 star
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: hilton hotel helped u make trip chicago centrally located near chi town hot spot also helped coordinate discounted admission various attraction hilton classy accommodation returning earliest convenience business pleasure
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: stay homewood suite absolutely one greatest stay away home location right heart downtown chicago within river north shopping districti love shop needed magnificent 2 room layout kitchen room fully equipted anything needednice flat screen along breakfast buffet fantastic complimentary dinner wine dinner wine enjoyed comfort heated indoor pool relaxing would recommend suite everyone know
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: recently stayed sofitel chicago water tower hotel could pleased hotel sleek elegant lobby modern stylish room room something truly special huge soft bed luxurious sheet ever seen felt bathroom beautiful cool marble tile gorgeous glass marble showertub wasnt enough room crisp 32 lcd tv display tv beautiful clear way absolutely amazing sound system finally make room grand stair case need look dinner hotel restaurant called cafe de architectes like hotel meld modern sophistication classic french technique wine list amazing price fantastic hotel near magnificent mile full dinner including appetizer main course dessert 45 amazing looking modern urban chic hotel chicago look sofitel chicago water tower hotel real choice
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: overview overrated hotel premium location great location walking distance cheap cab ride ton great restaurant bar sight good inviting lobby pleasant staff though bit snobby particular night deskman nice bathroom comfortable bed desk chair mediocre room excluding bathroom underwhelming design kitchen bar though limited room service harry carays across street free cocktail 57pm lounge right idea wrong execution tiny little room packed people line extending door hot water lack thereof almost every morning shower water temperature would waver comfortably hot lukewarm pressure pretty low view mine wasnt great apparently room horrible bad free wifi ethernet inconstant speed required multiple logins every day even computer wasnt moved really aggravating deal iphone also got numerous vulnerability threat warning norton antivirus make wonder secure blackout curtain corner room huge wraparound window awoke bright sunlight every morning mention near total lack privacy night never issue hotel motel ive ever stayed noise hotel sandwiched different bar late night cacophony yelling bar music truck car horn siren hugely distracting well early hour morning wear ear plug despite 5th floor tv crappy hd signal sync audio every channel remote useless room bar standard inflated price 7 bottle fiji water bedside insulting dont even think opening there 7eleven around corner sell exact bottle fraction cost summary recommended look much nicer website photo rating yelp bloated least star
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: stayed omni chicago hotel recently great experience husband would highly recommend hotel anyone visiting downtown chicago frequent traveler used staying wellmaintained luxury property many amenity omni chicago definitely fit bill first hotel suite stayed one premium suite accommodation definitely luxurious premium bedding nice robe use choice pillow used hypoallergenic one believe could also chosen foam feather pleased find tv plasma found hotel upgraded plasma dont wish use one oldfashioned type tv anymore used plasma home actually two tv suite also additional amenity appreciated highspeed internet access wet bar indoor swimming pool two gorgeous sundecks relaxing outside location perfect right midst miracle mile much practically omnis doorstep also treated windy city massage done comfort luxury suite masseuse excellent used highquality product sensitive skin extremely relaxing pleased find could get omni easy u see omni came highly recommended also wanted mention staff helpful friendly recommending several excellent area restaurant however think best meal omnis 676 restaurant husband raved bonein ribeye carrot soup lake erie silver bass extensive wine list easily able choose wine loved staff guidance lastly hotel staff also highly recommended visit nearby art institute chicago highlight trip loved multiple museum close omni frequent visitor omni future definitely getting inroom massage going pas recommendation friend family choose omni great chicago experience
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: want issue travelwarning folk might sign weekend deal offer travelzoo time time deal say free breakfast included price however dont tell breakfast consists cup coffee bisquit two moreover need ask ticket lobby check wont give automatically stayed christmas 03 noticed several guest bought package rather unpleasant experience hotel nice though dont consider lousy service
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: wife stayed ambassador east hotel last month son wedding got nobody helped u bag took forever valet car waiting 15 minute get car parked expected tip found rude finally getting room noticed crumb floor dirty bathroom extremely disappointed room service recommend place anyone
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: friendly staff helpfull whatever may dont miss wine bar hot chocolate bar spacious room perfect business theatre guest little quiet area weekend
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: second time staying much looking forward weekend amalfi based well first stay turned better anticipation bed comfortable 2 headed shower large bathroom hotel also pleasantly quiet easy checkin room near exercise room helped motivate u get hour morning workout able grab complimentary fruit pastry juice coffee floor breakfast every floor great view room dont think great view room since 5 floor didnt need drive take cab jump l whole weekend since hotel centrally located easily walked bar blue club restaurant hancock tower loop waterfront hotel highlight hotel complimentary happy hour free topshelf drink wonderful meat cheese pepper bread ran 530 700 great warmup nice dinner alone saved u bundle money would spent eating drinking evening extra moneysaving tippark selfpark lot 2 block west hotel kinzie 24 per night week 6 per night weekend think hotel charge 30 40 per night park
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: ill keep short wife daughter stayed hotel 3 night go several vacation year great hotel location located center magnificent mile michigan ave near easily accessible everything might want hotel hotel clean room maid service excellent including 2x daily cleaning turndown service think missed night service every staff member encountered super friendly kind always someone lobby door greeting smile every night milk cooky waiting room sometimes chocolate pillow always pushed elevator button near shortage people ask thing conplaint congierge tough get shouuld one longer hour breakfast 676 restaurant good well attended appointed even carried wife plate table buffet pool nice addition hit kid nice go swim long day walking pool changing area spotless room clean sunny spacious probably 400 sq ft 2 tv couch desk chair perfect shape window open fresh air pillow pretty comfortable aspect considered think unbeatable value would hesitate stay recommend friend truly nothing negative say hotel wonderful stay miss omni hit right formula make guest feel like welcomed person opposed nuisance number airline cornered market
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: omg best hotel ever ive stayed various hotel area service really suckish evan one hotel stayed molded sandwhich bed gross could really got sick hotel perfect location right beach club ohh pump room best food ive evr hotel evan got take picture queen anne never regret coming hotel loved hotel much bridemaids stayed walking distance popular food place club place least
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: good excellent location neighborhood pretty quiet close shop restaurant waterfront close trainsubway station etc bad old decor isnt big deal tv smaller pc monitor supposed king bed anniversary trip given two double bed told would switched never happened showertub stopped bad showered husband waited one hour tub drain could shower want shower someone el dirty water even wife indifferent room decent size bed linen okay staff mediocre marginally rude
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: traveling chicago stayed sofitel chestnut street though hotel beautiful comfortable advertisement suggest service severely lacking arrived late night one peaceful dreamy night sleep woke dawn reserved room one lower floor unaware construction happening area complained informed construction requested another room complaint totally disregarded told room whole hotel available explained noise bothersome treated rudely woman front desk actually ask thought could make worker stop understand staff control noise however know construction information time booked information would swayed decision treat rudely bringing attention staying
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stay palmer house hilton wonderful attracted hotel going finance first time chicago location hotel perfectly placed downtown chicago took advantage hilton bed breakfast special upon check friday afternoon went lockwood restaurant going room weekend stayed one bedroom suite king size bed hotel spotless never hotel room clean portion food perfect everything provided point would recommend hotel anyone going visit chicago first time staff professional let feel like king queen
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: 100 degree heat chicago summer suck air conditioner work 2 maintenance men attempted rectify issue offered portable fan low speed sound helicopter hoovering room requested room change polite unsympathetic night front desk attendant stated possible hotel capacity maybe manager could help morning next day went call received 7pm called front desk one aware problem approximately 45 minute later manager returned call stated double room available accepted glee anything better room cool 78 degree middle summer paritally correct bathroom door new room close thank god boyfriend past shy part relationship room 1618 believe first guest complain air conditioner whats unfortunate continued place guest room offer reufunds perk sleepless night sauna hotel need major overhaul
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: hotel incredible havent better stay hotel life definitely come next time chicago room elegant modern color scheme staff member friendly willing lend hand bed surprisingly comfortable interesting cover tv hd step hotel stayed cool martini bar spent hour one night enjoyable especially live jazz band
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: returned relaxing stay intercontinental chicago say service phenomenal maid concierge everyone staff treated u like royalty quite treat feel special room gorgeous view city breathtaking luxury mattress bedding made comfortable peaceful slumber found marble bathroom stunning impeccably clean wife pleased lighted makeup mirror enjoyed reliable wifi connection stay dinned zest wow offer extensive wine menu full array gourmet food option try famous wiener schnitzel scrumptious afterwards wife shared chocolate lava cake say oh cake die really best ever morning spent time working dinner junior olympic swimming pool followed exhilarating round cardio hotel dedicated cardio room afterwards trip sauna well deserved refuge overall stay intercontinental chicago nothing short fabulous luxury hotel complete finest amenity caring staff looking forward staying intercontinental hopeful soon
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: stayed fairmont two night sofa art fair navy pier impressed bellman called u name met taxi pronounced correctly quite unusual everyone smiled welcomed u lobby look clean friendly ultramodern tired worn room also clean comfortably furnished larger expected clean modern bath lovely view navy pier lake eat restaurant looked attractive problem asked nonfeather pillow upon reserving room upon checking calling housekeeping waiting hour went bed next day checkin desk person extremely apologetic time returned feather replaced foam nonallergenic material hotel convenient millenium park michigan ave would stay assuming could get good rate
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: daughter woke morning wanting go swimming arrived pool water covered white scum attempted use phone pool one white phone one emergency red phone call desk service glad wasnt emergency exited pool area ran hotel employee told problem asked call u pool clean never heard back
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: couple year since stayed got night last weekend hotwire paid 100 stayed saturday night impressed redecorating done hotel lobby always great room little shabby past hotel redecorated last year location still amazing berghoff open great restaurant within walking distance
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stayed sofitel chicago water tower hotel couple week ago chicago 3 night must say impressed example hotel try hard little result except inflating bill start hotel lobby totally gaudy sculpture artwork seemed meaningless guess supposed give air style room ok suppose certainly worth premium price paid hotel food presented like kind amazing french cuisine food arranged nicely tasted unremarkable overpriced final verdict avoid hotel possible simply worth
+True Label: TRUTHFULPOSITIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: wanted let everyone know looking hotel high rise construction next door swissotel chicago one wife went last year empty lot next door year loud construction site next door 8 saturday morning hear worker starting sure summer chicago come around work night think keep adding floor able look worker eye wave room used view navy pier get close personal view people pouring concrete top hotel construction front hotel block lucky u protestors standing front hotel able tell use new entrance protestors swissotel hired company redo sound system hire union worker ask worker noise say cant hear sure swissotel want word getting insist trying dont pay room advance let room stuck
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: hotel great location much better money hallway smelled smoke dirty elevator furniture lobby thread bare staff helpful room large bed comfortable room musty old smoke lingered allergy dont stay
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: beautiful hotel historic feature hotel make absolutely amazing hotel offer many great guest accommodation enjoyed spacious tidy room staff friendly helpful professional concierge went way make sure knew area hotel especially enjoyed service lockwood restaurant server excellent food delicious must say hotel exceeded expectation stay awesome
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: spent three night chicago property first say would hard imagine better location perfectly situated magnificent mile close terrific restaurant art institute orchestra hall hotel two side historic tower new wing room larger historic side generally looking little tired property need renovated observation junior suite laid strangely small bedroom smaller sitting room separated corridor large bathroom mirror sink sink skewed right made shaving challenge messy descending elevator one morning started shaking violently could barely stand stopped 11th floor greeted extremely worried looking hotel employee technician shut experience far powerful coffee helping wake adrenaline rush certainly cure sleepiness report group sink stopped exposed bolt room generally thing working good news staff terrific make feel welcome personable personality great service bar really went extra distance help wish better property work
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: wife much looking forward stay hotel allegro chicago looking forward romantic getaway say hotel allegro disappointment u pet friendly hotel knew going shocked fact found pet hair around room given carpet even amount bed cover shocking price paying called front desk took hour someone housekeeping stop past room flair guess cant imagine right flair many coloring used bright blue bed muted yellow designy wallpaper neither wife found relaxing cant imagine many would really offputting overall experience check minus book looking return time soon
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stayed boyfriend one night however enjoyed stay staff friendly room nice clean hallway ballroom etc elegant room service quick good option choose actually tasted great staff able extend check time extra 12 hour without extra charge room great location walking distance art museum millennium park grant park right across street quick cab ride mccormick place city would love stay
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stayed 5 night visiting chicago first time location great hotel recently renovated room spacious two bathroom lobby great place chill drink didnt eat restaurant good one nearby beside art institute cultural centre macys staff friendly would recommend base tour city
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: writing recent stay ambassador east hotel wanted let know wonderful team working everyone checkin checkout couldnt helpful personable made mundane business trip pleasureable one hotel spotless comfortable restaurant one chicago finest really offer finest quality product service complaint internet access free would like mention one person particular sofie worked front desk went beyond make stay smooth possible even helped taxi service local recommendation shall look forward returning next month thank p grady
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: never stay lured hotel picture showing fabulous suite instead arrived find cheap furniture smelled old cheese called front desk see another room available put hold five minute one came back line ended going front desk ignored given assistance interrupted front desk clerk seemed personal call clerk apologize looked attitude requested another room mine smelled like old cheese informed room available would send housekeeping housekeeping sprayed febreeze couch left tried relax turning tv bedroom sat bed saw something scurry pillow checked corner mattress found bedbug packed bag left get refund room complaining went across town marriott much better stay
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: lovely hotel six floor making easy get elevator reception building dwarfed amongst skyscraper around trump huge new tower street amalfi look recently refurbished modern warm inviting bedroom quite spacious lovely linen comfortable bed bathroom quite small roomy enough aveda tolietries constant hot water shower continental style breakfast set fresh every morning front elevator every floor great stumble bed grab coffee etc robe slipper provided without get dressed formal breakfast really enjoyed manager evening cocktail reception especially amalfitinis nice way relax hard day shopping location great shop transport museum etc easy walking everywhere staff also friendly welcoming would definately stay
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: making obligatory trip chicago area visit family decided make fun teenage member group reserved couple room hard rock hotel chicago great decision room upscale reasonable price great amenity according younger member family cool cant wait come back
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: recently chicago business chose stay swissotel chicago hotel sell stylish sophisticated luxurious say center city would better anywhere else impressed interior finding bordering clinical modern taste guess stylish might modern people mind mine also luxury mean plush hard clinical made way reception hardly encountered friendly customer service boasted website organized executive suite planning work time hotel room thought extra space would come handy proceeded check girl desk told smacking gum reservation handed booking confirmation told first spelled name wrong even though spelled proceeded tell due conference executive suite already allocated would happy assign lake view room correct wrong step room asked surely give away room try compensate something better said really needed space would using room office finally said corner king room available wanted switch following evening would welcome room ok although disappointed cold clinical felt attempt make use hotel service found sadly lacking comment service high speed wireless available room unless willing pay fee cable connect also per day fee border extortion free wifi lobby requires sit near door open constantly letting freezing blast air plus deal noise bustle people constantly coming phone room service arrival request extra pillow towel wait 2 hour arrived fitness center pool looking forward using closed cleaning went breakfast next morning consisted continental item would expected money would say money better spent elsewhere
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: intercontinental chicago hotel one finest hotel stayed long time atmosphere upon arrival one elegance beauty staff welcomed u catered every need room plush romantic interior decor breathtaking definitely 4 star rating would think twice coming back received highest recommendation
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: booked thru hotwire high percentage positive outcome happy saw would staying knickerbockeras stayed younger reserved king nonsmoker upon arriving told choice smoking room argued stated well booked thru hotwire priority entered room noticed bathroom door track bathroom light turn called front desk fixed door light later eveing took shower seal around shower poor water got floor towel also must add room reaked smoke next day checked front desk clerk asked stay told problem told u total concern issue also checked bag day bellman came quickly made rude comment u hurrying could get day realized bit later forgot something one bag told would get back stay awayeven get good deal
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: great property excellent location wonderful staff everyone accommodating polite room 23rd floor like suite living area bedroom living room spacious plasma tv desk couch bed comfortable toiletry good quality closed placed umbrella came handy rained whole time chicago internet connection 99524hrs great place return sure
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: much looking forward stay hotel hearing good thing unfortunately underwhelming experience say least let begin thing like hotel first located favorite part chicago leafy affluent part town chicago equivalent manhattan upper east side complete sidewalk quiet treelined street real oldschool townhouses instead ugly towering monstrosity 21st century condominium cute boutique instead gap banana republic mainstream massproduced brand course hermes paris warrant separate mention also like small intimate lobby area old leather couch cherry colored wooden furniture area rug distinct artwork reason always tend gravitate toward smaller boutique hotel instead impersonal chain definitely love room space issue bad chicago manhattan getting 400sqft guestroom weekend getaway easy task delighted see room come generous ample bathroom double sink massive king bed still enough space walk around chicken dance strut herve louboutins reservation lack natural light window definitely inadequate allow sunlight find way 11thfloor room delaware st exactly widest street town building front u cant yet one thing really disappointed u service lack thereof mean seriously dont call hospitality industry reason pay premium stay smaller boutique hotel get service little bit personalized kind would getting say 3000room vega hotel first called reconfirm reservation lady phone anything courteous competent first able find reservation transferred front desk staff explain pet peeve come onthephone customer service person manned reception desk friendly competent either case point send slip paper agree nightly rate duration stay room checked clearly indicated must forgotten actually real kicker ordered room service arriving 1am general rule never ever big fan room service fair share bad food slap 18 gratuity 105 tax still expect tip day globetrotting company expense account think overcooked steak lukewarm soup bread hard enough knock someone icecream already half melted time reach suite really wasnt expecting hotel small talbott 24hour room service lo behold placed order chicken blt initial delight came within 20 minute customary invoice involuntary yet customary tip 2 top 18 service fee refer opened cover find something looked like picked garbage bin microwaved served plate bag lay chip lightly salted flavor bread looked like someone stomped l looked like 2 day old b unrecognizable chicken burnt cold pathetic room service finest get item taken bill rightfully front desk person instead apologetic defiant whole thing upsetting hotel highend able leave bad impression within first hour arriving quite accomplishment wont coming back unfortunately
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: fiancee looking modern upscale venue wedding reception found perfect location james ballroom personal attention detail step handled care locked date excited ever thank staff james making day even special
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: arrived 3 night stay sofitel chicago water tower faboulous fine linen nice room bigs window bathroom shower flat tv check deal sofitel website 3 night price two
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: parent booked five night james location good review terrible first night defective air conditioning much sympathy management staff sent engineer three time repair unit insisted getting cooler wasnt rationale summer temperature high filter dirty parent request hotel staff moved lower floor queen instead king neither rate discount effort compensate inconvenience discomfort hotel insisted fully booked reluctantly gave room dont book hotel summer way view room except window building
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: great stay monaco last fall friend disappointed initially arrive saturday husband find didnt quikbook made reservation system room available sat eve immediately took responsibility mistake following found u nice room neighboring swissotel paid gave u cab fare get 4 block paid valet parking 33 eve naturally asked interested returning sunday eve room said yes returned gave u corner suite jacuzzi tub 139 quikbook rate thats call recovery
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: reading review getting excellent rate travelzoo decided give hotel try must say great choice location perfect n michigan ave walking distance everything staff helpful friendly room excellent gave u corner room wa great view many posted bed pillow comfortable picky slept well every night renovation almost done bother u one bit highly recommend hotel
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: accompanied husband business trip chicago back september stayed millennium knickerbocker hotel place absolutely oozing oldfashioned charm also plenty shopping opportunity within walking distance shopped husband worked doesnt get better loved service received ambiance grand old hotel id definitely stay
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: hotel overpriced get staying amalfi hotel chicago advertises luxury hotel located downtown chicago since downtown chicago mean street noise keeping night view also suffered nicer room available better view markup stay outrageous room decent clean linen nice air conditioning get hotel day wasnt anything particularly luxurious hotel make standout price paid room certainly expectation let
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: booked hotel business trip since able get 129 rate travelzoo figured id save company money also read excellent review tripadvisor guaranteed confirmed room reservation two night november arrived chicago 730pm decided go dinner prior checking called hotel request late check told problem arrived hotel 1145pm told didnt room id move four point sheraton paid major inconvenience move completely unacceptable confirmed room given away told overbooked didnt get many cancellation expected check hotel next day good experience would recommend staying ensure reservation indeed confirmed avoid late checkins might room experience designer great helpful room nice comfortable felt like home breakfast could stand add bagel healthy factor nice fruit think kink worked great hotelthey need get basic
+True Label: TRUTHFULNEGATIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: hotel located right hustle bustle city chicago ideal corporate executive term location hotel offer spectacular view ocean dining room spacious make eating hotel really pleasant experience dining guest experience nice ambiance overlook city picturesque especially night city light come room nice spacious allows guest get work done desk area would strongly recommend hotel corporate executive
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: elegant lobby comfy bed nice sheet given fancy little dated room 5th floor view monstrous venting structure located lobby heard elevator night hilton one charged internet access device per hour stayed middle ohio received total access free didnt drink 600 water try 28 breakfast buffet staff friendly course tip smile give u cot free asked room foldout couch party 5 didnt use gym pool 8th floor looked nice small pool view water possible though right grant park tried view firework higher story luck read
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: review hard rock hotel find hard rock hotel located chicago extrodinary scenary hotel extremely clean shining furniture room breathtaking hungry visit hotel see excellence provide dinner table hotel also host event ballet fun bar dj name hotel definitely worth definitely visit book reservation soon possible dont forget camera
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stayed one night hotel staff extremely friendly polite room clean large decor redone best perk complimentary continental breakfast floor morning free cocktail hour premium drink great appetizer night got great rate would go back great location walking around
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: one best hotel ever went see scheduling reception party amazed architecture building interior design room massive spacing provided room recommend hotel associate hold important business meeting james club meeting partake nice meal drink brings next point james best food ever eaten james private club feel made elite upper class classy elegant customer service outstanding recommend hotel anyone needing hold reception business meeting need day spa 5 star way
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: first let say wonderful wife refered hotel friend traveling chicago many time many experience good bad different hotel amazed knickerbocker felt like royalty first step property everyone willing make stay rememberable hotel made routine trip chicago dream vacation wait return
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: family two week holiday chicago stayed week hilton tower fantastic time enjoyed every minute stay incredible hotel sheer size place breathtaking atmosphere friendly hospitable prefer discreet modern boutiqueytype hotel maybe wouldnt thing however enjoy old style glamour glitz bowled hotel place literally sparkle thanks enormous chandelier everywhere lobby ton celebs stayed decade history hotel past guest etc fascinating got reasonable rate stay could fault anything special place
+True Label: TRUTHFULPOSITIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: recently stayed hard rock hotel chicago labor day weekend huge mistake got room everything seemed okayuntil went bathroom steady drip noise coming bathroom sink matter hard turned knob would stop none usual bath soap stocked toilet paper also seems housekeeping swept everything behind toilet saw wad hair scrap tissue behind bowl called front desk ask send someone stock bathroom clean waiting turned air conditioning kind warm ac started blowing hot musky air room smelling horrible made another phone call front desk complained asked switch room told available double bed near elevator frustrated odor steady drip hearing choice take moved new room large damp spot near window smelled strongly beer light bathroom would turn front desk sent someone room fix problem finally 2 hour later able relax settle hard rock definitely used reason staying
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: stayed valentine weekend got 5th floor direct view building next door pay extra pool ice machine floor parking nearby suck chicago pay 50 valet go car glass dusty gross location notorious super sensitive scale mini fridge barely touch youll get bill 3 morning door higher floor better view would 4 star time
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: called december 6th 2010 3 pm book room upcoming weekend getaway taken aback phone picked promptly hung without word thinking might simple mistake gave another try woman introducing toni answered phone rushed introduction sounding incredibly bored annoyed answer phone barely letting second go introduction gave snotty hello could open mouth tell never mind never hotel answered call rudely id like give hotel benefit doubt pin unpleasant experience toni however calling back hope stay hotel trip
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: became ambassador member spending mother day chicago intercontinental received room upgrade exceptional room saturday night stay best 99 ever spent mother day special welcoming chocolate covered strawberry began weekend high note concierge continued arranging wonderful dinner moderately priced great sunday breakfast topped mother day chicago super loved enough back labor day weekend another package
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: stylish hotel located right north michigan avenue five minute walk orange loop line get midway airport forget taking taxi train 2 ride le 40 minute away room 1802 immaculate spacious 350 sq ft told decorated gray white room comfortable soothing jarring hand found lighting poor trouble reading finding key etc kidding bathroom also quite dark didnt heating lamp positive side however aveda product bathroom window huge day ton natural light issue darkness king size bed firm plush pillow top made comfortable inviting largish tv dvd player safe munchies gym perfect equipped treadmill ellipticals bike weight open 247 video surveillance safety towel water headphone disposable ear pad complimentary green apple suggestion floor 22nd take elevator 22nd l2 get gym way dont traverse lobby front desk staff amiable attentive read review nasty personnel experience got free newspaper smile free stamp needed change coffee could tolerate morning hard rock located le 20 minute walk water tower drury theater john hancock magnificent mile like thrifty breakfast recommend gourmet pantry 155 n michigan avenue deli made delicious egg toasted roll butter sunday morning le 199 hotel breakfast buffet 1500 per person partake would stay hard rock think great people tweens sure toddler set though
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: room third floor street noise certainly didnt spoil 4 night lovely hotel wine tasting evening went extremely well day seeing sight city goldish called oliver nobody could believe goldfish room staff really helpful welcoming making stay relaxing comfortable would certainly recommend hotel
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: great hotel heart chicago business pleasure room recently upgraded modern large flat screen tv marble bath room suite great desk kitchenette comfortable bed free wireless internet everything could ask location easy walk magnificient mile lot great restaurant staff friendly helpful short cab ride loop
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: vacation highlighted four day stay homewood suite hilton chicago downtowni believed would best part trip discovered unfolding nightmare lovely room fifteenth floor voice emanating phone informed u pending fire alarm procedure follow anyone tenth floor instructed go bathroom wet towel place along bottom closed doordo use elevator wait instructionswe nervously waited twenty minute without communication voice phonewe decided exit via stair realizing late entered stairwell door behind lockedwe continued travel downward backdrop music siren loud muffled speakersobviously rescued without physical injury yet emotionally damagedi choose hotel range ten floor le
+True Label: TRUTHFULPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: stay james hotel chicago fantastic hotel clean modern everything hoped staff fabulous went beyond expectation need met recommending hotel friend associate
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: negative point 1 guess gave worst room small room king size bed even though id requested room two queen bed 2 roll away bed available sleep floor 3 tub bathroom would drain 4 exhaust fan bathroom 5 broken furniture plus point 1 convenient location
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: id expect luxury hotel pay attention detail room really hadnt thoroughly cleaned found hairball bed mirror streaked etc desk staff took forever even acknowledge checking three two phone nobody even made eye contact 5 minute gave vaguest answer pretty basic question neighborhood youd think theyd know find starbucks internet ridiculously slow whole two day
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: wrote email sale reservation team week agoim still waiting response wanted book suite 2 night failed even reply offer booked another hotel bothered answer email shame missed coz tip like rockerfellers
+True Label: TRUTHFULNEGATIVE
+Predicted Label: DECEPTIVENEGATIVE
+
+Review: first time chicago tell really made feel like million buck took taxi straight airport greeted door kind gentleman offered help luggage assisted checkin counter made way room spectacularly bright welllit ordered food food delicious staff fantastic didnt short stay chicago would stayed hotel room day
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: satisfied staying sofitel chicago water tower service excellent staff helpful polite bed comfortable room spacious definitely returning hotel
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: moment stepped front entrance luxury service began enjoyed every minute fairmont king room spacious decor chic coffee maker coolest bathroom huge really like separate shower tub separate door toilet dessert cheese spread eno yummy fairmont w hotel favorite chain hotel stay
+True Label: DECEPTIVENEGATIVE
+Predicted Label: TRUTHFULNEGATIVE
+
+Review: wonderful time james hotel business chicago room modern tasteful wellkept staff responsive efficient perfect place unwind working day also provided ideal atmosphere work
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULPOSITIVE
+
+Review: returned first stay remodeled fairmont chicago millennium park say fabulous modern decor style hit minute walk front desk work art stayed anything standard guestroom modern decor beautiful artwork relaxing hotel room ever stayed bathroom like personal spa marble tile classic modern time rainfall showerhead die people time sure check fitness center spa great new equipment work sweat pampering body could ever need awaits spa wish could stayed longer next time sure add couple day trip im sure wont even think going outside door
+True Label: DECEPTIVEPOSITIVE
+Predicted Label: TRUTHFULNEGATIVE
+
